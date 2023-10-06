@@ -180,6 +180,16 @@ section {
   width: 400px;
   margin: auto 0;
   border-radius: 50px;
+  animation: bounce 1s infinite;
+  
+}
+@keyframes bounce {
+  0%,100%{
+    transform: translateY(1px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
 }
 
 .section__text {
@@ -281,11 +291,14 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  
+  
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
@@ -295,6 +308,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  
 }
 
 .arrow {
