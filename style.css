@@ -45,6 +45,7 @@ nav {
   list-style: none;
   font-size: 1.5rem;
   border: 3px;
+  font-weight: 700;
 }
 
 a {
@@ -54,14 +55,16 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: darkslategrey;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 45px;
+  font-weight: 800;
+  text-shadow: 2px 2px darkcyan;
 }
 
 .logo:hover {
