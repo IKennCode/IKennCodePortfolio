@@ -52,13 +52,18 @@ a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
+  transition: .25s ease-in-out;
+  text-shadow: 3px 3px 5px 0px rgb(10, 10, 10);
 }
+
 
 a:hover {
   color: darkslategrey;
   text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-underline-offset: 10px;
+  text-decoration-color: blueviolet;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .logo {
@@ -223,6 +228,7 @@ section {
 .multitext{
   font-size: 3rem;
   text-align: center;
+  color: blueviolet;
 }
 
 #socials-container {
@@ -257,22 +263,26 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: blueviolet .1rem solid;
+  cursor: pointer;
+  transition: .25s ease-in-out;
+  box-shadow: 3px 3px 5px 0px rgb(10, 10, 10);
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: blueviolet;
+  color: black;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: whitesmoke;
 }
 
 .btn-color-2 {
@@ -280,7 +290,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border:black   0.1rem solid;
 }
 
 .btn-container {
