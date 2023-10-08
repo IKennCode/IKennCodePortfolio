@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(53, 53, 53);
 }
 
 /* TRANSITION */
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 800;
   text-shadow: 2px 2px darkcyan;
 }
@@ -70,7 +70,13 @@ a:hover {
 .logo:hover {
   cursor: default;
 }
+.mylogo{
+  box-shadow: 2px 3px  blue;
+  border-radius: 10px;
+  
+  
 
+}
 /* HAMBURGER MENU */
 
 #hamburger-nav {
