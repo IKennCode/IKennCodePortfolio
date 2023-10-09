@@ -20,6 +20,10 @@ p {
   color: rgb(53, 53, 53);
 }
 
+.description{
+  margin: 3px;
+}
+
 /* TRANSITION */
 
 a,
